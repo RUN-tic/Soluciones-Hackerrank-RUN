@@ -1,0 +1,9 @@
+def getVolumen(lado):
+  PI = 3.141592
+  radioEsf = lado/2
+  Vesfera = ((4.0/3.0)*PI)*pow(radioEsf,3)
+  Vcubo = pow(lado,3)
+  return (Vcubo-Vesfera)
+
+lado = int(input())
+print("El volumen de la caja hueca es:", getVolumen(lado))
