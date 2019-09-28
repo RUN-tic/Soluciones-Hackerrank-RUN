@@ -1,0 +1,7 @@
+X=int(input())
+Y=int(input())
+
+if Y%X == 0:
+	print("El numero", X, "es divisor de", Y)
+else:
+	print("El numero", X, "no es divisor de", Y)

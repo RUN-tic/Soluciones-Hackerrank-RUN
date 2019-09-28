@@ -1,0 +1,10 @@
+dia=input()
+
+if dia=="viernes":
+    print("fin de semana")
+elif dia=="sabado":
+    print("fin de semana")
+elif dia=="domingo":
+    print("fin de semana")
+else:
+    print("no fin de semana")

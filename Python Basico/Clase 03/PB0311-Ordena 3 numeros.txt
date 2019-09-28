@@ -1,0 +1,14 @@
+a = int(input())
+b = int(input())
+c = int(input())
+
+mayor = 0
+    
+if a >= mayor:
+        mayor = a
+if b >= mayor:
+        mayor = b
+if c >= mayor:
+	mayor = c
+        
+print("El numero",mayor,"es el mayor")

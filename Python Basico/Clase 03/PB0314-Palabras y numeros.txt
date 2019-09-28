@@ -1,0 +1,7 @@
+palabra=input()
+numero=int(input())
+
+if numero==len(palabra):
+    print("Los datos son correctos")
+else:
+    print("Los datos no son correctos")

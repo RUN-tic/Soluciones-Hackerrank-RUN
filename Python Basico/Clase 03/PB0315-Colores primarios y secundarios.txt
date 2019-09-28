@@ -1,0 +1,13 @@
+color1=input()
+color2=input()
+
+if color1=="rojo" or color1=="azul" or color1=="amarillo":
+    if color2=="morado" or color2=="anaranjado" or color2=="verde":
+        print("El",color1,"es primario y el",color2,"es secundario")
+    else:
+        print("El",color1,"es primario y el",color2,"es primario")     
+elif color1=="morado" or color1=="anaranjado" or color1=="verde":
+    if color2=="rojo" or color2=="azul" or color2=="amarillo":
+        print("El",color1,"es secundario y el",color2,"es primario")
+    else:
+        print("El",color1,"es secundario y el",color2,"es secundario")

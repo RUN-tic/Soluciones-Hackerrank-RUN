@@ -1,0 +1,20 @@
+ano=int(input())
+mes=int(input())
+dia=int(input())
+    
+dias_mes = 30
+    
+if mes == 2:
+        dias_mes = 28
+    
+if dia < dias_mes:
+        dia += 1
+else:
+        dia = 1
+        if mes == 12:
+            mes = 1
+            ano += 1
+        else:
+            mes += 1
+            
+print(dia,"-",mes,"-",ano)

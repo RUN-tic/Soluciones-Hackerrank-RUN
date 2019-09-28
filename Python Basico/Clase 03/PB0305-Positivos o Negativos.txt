@@ -1,0 +1,6 @@
+X=int(input())
+
+if X<0:
+	print("El numero", X, "es negativo")
+else:
+	print("El numero", X, "es positivo")

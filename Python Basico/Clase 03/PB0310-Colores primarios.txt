@@ -1,0 +1,10 @@
+color=input()
+
+if color=="azul":
+    print("Es un color primario")
+elif color=="rojo":
+    print("Es un color primario")
+elif color=="amarillo":
+    print("Es un color primario")
+else:
+    print("No es un color primario")

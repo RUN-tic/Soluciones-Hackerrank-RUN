@@ -1,0 +1,8 @@
+maquina=input()
+
+if maquina == "piedra":
+	print("papel")
+if maquina == "papel":
+	print("tijera")
+if maquina == "tijera":
+	print("piedra")

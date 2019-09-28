@@ -1,0 +1,65 @@
+dia = int(input())
+mes = int(input())
+    
+if mes == 12:
+    if dia < 22:
+            zodiaco = 'Sagitario'
+    else:
+            zodiaco = 'Capricornio'
+elif mes == 1:
+    if dia < 20:
+            zodiaco = 'Capricorn'
+    else:
+            zodiaco = 'Acuario'
+elif mes == 2:
+    if dia < 19:
+            zodiaco = 'Acuario'
+    else:
+            zodiaco = 'Piscis'
+elif mes == 3:
+    if dia < 21:
+            zodiaco = 'Piscis'
+    else:
+            zodiaco = 'Aries'
+elif mes == 4:
+    if dia < 20:
+            zodiaco = 'Aries'
+    else:
+            zodiaco = 'Tauro'
+elif mes == 5:
+    if dia < 21:
+            zodiaco = 'Tauro'
+    else:
+	    zodiaco = 'Geminis'
+elif mes == 6:
+    if dia < 21:
+            zodiaco = 'Geminis'
+    else:
+            zodiaco = 'Cancer'
+elif mes == 7:
+    if dia < 23:
+            zodiaco = 'Cancer'
+    else:
+            zodiaco = 'Leo'
+elif mes == 8:
+    if dia < 23:
+            zodiaco = 'Leo'
+    else:
+            zodiaco = 'Virgo'
+elif mes == 9:
+    if dia < 23:
+            zodiaco = 'Virgo'
+    else:
+            zodiaco = 'Libra'
+elif mes == 10:
+     if dia < 23:
+            zodiaco = 'Libra'
+     else:
+            zodiaco = 'Escorpio'
+elif mes == 11:
+     if dia < 21:
+            zodiaco = 'Escorpio'
+     else:
+            zodiaco = 'Sagitario'
+    
+print("Tu signo del zodiaco es "+zodiaco)

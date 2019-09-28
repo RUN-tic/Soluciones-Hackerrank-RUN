@@ -1,0 +1,14 @@
+nota = int(input())
+    
+if nota < 25:
+	print("La calificacion es de F")
+elif nota >= 25 and nota < 45:
+        print("La calificacion es de E")
+elif nota >= 45 and nota < 50:
+        print("La calificacion es de D")
+elif nota >= 50 and nota < 60:
+        print("La calificacion es de C")
+elif nota >= 60 and nota < 80:
+        print("La calificacion es de B")
+elif nota >= 80:
+        print("La calificacion es de A")

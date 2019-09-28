@@ -1,0 +1,22 @@
+dia = int(input())
+mes = int(input())
+    
+if mes in (1, 2, 3):
+    estacion = 'verano'
+elif mes in (4, 5, 6):
+    estacion = 'otono'
+elif mes in (7, 8, 9):
+    estacion = 'invierno'
+else:
+    estacion = 'primavera'
+
+if (mes == 3) and (dia > 20):
+    estacion = 'otono'
+elif (mes == 6) and (dia > 20):
+    estacion = 'invierno'
+elif (mes == 9) and (dia > 20):
+    estacion = 'primavera'
+elif (mes == 12) and (dia > 20):
+    estacion = 'verano'
+
+print("Estamos en "+estacion)
