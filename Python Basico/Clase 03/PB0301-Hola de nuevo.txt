@@ -1,0 +1,6 @@
+x=int(input())
+
+if x>=18:
+    print("Soy mayor de edad")
+else:
+    print("Soy menor de edad")
